@@ -1,0 +1,7 @@
+c = open('hello.c', 'w')
+c.write('#include <stdio.h>\n\n')
+c.write('int main() {\n')
+c.write('printf("Hello World");\n')
+c.write('return 0;\n')
+c.write('}')
+c.close()
